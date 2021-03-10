@@ -1,0 +1,4 @@
+sodapy==2.1.0
+requests==2.24.0
+elasticsearch==7.9.1
+six==1.15.0
