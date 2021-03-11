@@ -42,7 +42,7 @@ docker run -d\
 
 
 
-**Figure 1: Kibana Discover page. It took me more than 24 hours to upload 37.6 million records. **
+**Figure 1: Kibana Discover page. It took me more than 24 hours to upload 37.6 million records.**
 
 ![figure1](assets/KibanaDiscoverPage.png)
 
