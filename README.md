@@ -4,9 +4,9 @@
 
 For this project, I loaded the Open Parking and Camera Violations dataset containing more than 50 million NYC parking violations and uploaded it to Elasticsearch. Then I connected to my Elasticsearch index in Kibana and created a dashboard.
 
-Firstly, I created the Dockerfile and requirements.txt which includes requests, sodapy and elasticsearch. 
+**Firstly**, I created the Dockerfile and requirements.txt which includes requests, sodapy and elasticsearch. 
 
-Secondly, I created the file main.py. 
+**Secondly**, I created the file main.py. 
 
 * This python file required 5 environment variables: DATASET_ID, APP_TOKEN, ES_HOST, ES_USERNAME, ES_PASSWORD. 
 
@@ -18,7 +18,7 @@ Secondly, I created the file main.py.
 
 * I used a while loop to load data from API and upload it to Elasticsearch. In a loop, I had a for loop to converted the data format, put them into an iterable “ACTIONS” and after the for loop, I used “helpers.bulk” to upload all rows into Elasticsearch.
 
-Thirdly, I built and run the docker image and named it “project1”. Here is my command line.
+**Thirdly**, I built and run the docker image and named it “project1”. Here is my command line.
 
 docker build -t project1:1.0 project01/
 
@@ -46,7 +46,7 @@ docker run -d\
 
 ![figure1](assets/KibanaDiscoverPage.png)
 
-Finally, I added the data into Kibana, created 4 meaningful visuals and made a dashboard. Here is my Kibana dashboard:
+**Finally**, I added the data into Kibana, created 4 meaningful visuals and made a dashboard. Here is my Kibana dashboard:
 
 **Figure 2: Kibana dashboard**
 
