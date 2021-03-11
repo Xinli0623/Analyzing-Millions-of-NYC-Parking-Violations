@@ -44,13 +44,13 @@ docker run -d\
 
 Figure 1: Kibana Discover page. It took me more than 24 hours to upload 37.6 million records. 
 
-![figure1](C:\Users\houxi\OneDrive\Desktop\Fall 2020\CIS9760\project01\assets\KibanaDiscoverPage.png)
+![figure1](assets\KibanaDiscoverPage.png)
 
 Finally, I added the data into Kibana, created 4 meaningful visuals and made a dashboard. Here is my Kibana dashboard:
 
  Figure 2: Kibana dashboard
 
-![Figure 2: Kibana dashboard](C:\Users\houxi\OneDrive\Desktop\Fall 2020\CIS9760\project01\assets\kibanadashboard.png)
+![Figure 2: Kibana dashboard](assets\kibanadashboard.png)
 
 * Visual 1: this is a stacked area chart which shows the daily number of violations by county. The horizontal axis is “Issue date” and the vertical axis is the count of violations. It suggests that NY, K BX and Q have much more violations than other counties.
 * Visual 2: this is a horizontal stacked bar chart shows the top 10 most popular violations and corresponding fine amounts. It suggests that the most common violation is “PHTO SCHOOL ZN SPEED VIOLATION” and typically the fine amount is 50 dollars. The second one should be “NO PARKING-STREET CLEANING” and the fine amount could be 45 or 65 dollars.
