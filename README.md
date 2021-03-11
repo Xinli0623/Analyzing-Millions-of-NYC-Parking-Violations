@@ -42,13 +42,13 @@ docker run -d\
 
 
 
-Figure 1: Kibana Discover page. It took me more than 24 hours to upload 37.6 million records. 
+**Figure 1: Kibana Discover page. It took me more than 24 hours to upload 37.6 million records. **
 
 ![figure1](assets/KibanaDiscoverPage.png)
 
 Finally, I added the data into Kibana, created 4 meaningful visuals and made a dashboard. Here is my Kibana dashboard:
 
- Figure 2: Kibana dashboard
+**Figure 2: Kibana dashboard**
 
 ![Figure 2: Kibana dashboard](assets/kibanadashboard.png)
 
